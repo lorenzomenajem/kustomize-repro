@@ -4,7 +4,7 @@ kind: Kustomization
 # namespace: external-secrets
 helmCharts:
   - name: kubernetes-external-secrets
-    version: 8.0.0
+    version: 8.2.0
     repo: https://external-secrets.github.io/kubernetes-external-secrets
 
 # The source code indicates that this is an accepted field, but
